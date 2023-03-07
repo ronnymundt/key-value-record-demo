@@ -1,0 +1,18 @@
+// HTML defaults
+html, body { height: 100%; }
+
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.bit-app-background {
+    background-color:#303030;
+    color:#fff
+}
+
+h1, h2, h3, h4 {
+  margin: 0 !important;
+}
