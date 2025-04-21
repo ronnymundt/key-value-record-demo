@@ -1,13 +1,31 @@
-# Key-Value Record Demo
+# Key-Value Record Demo 🧠💡
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+Eine kleine Angular 19 Demonstration zur praktischen Anwendung des TypeScript-Typs `Record<K, T>`. 
+Ziel ist es zu zeigen, wie man aus Strings vollwertige, 
+typisierte Properties erzeugt – inklusive IntelliSense-Unterstützung z.B. in WebStorm.
 
-## Development server
+## 🛠️ Technologien
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 19
+- TypeScript
 
-## Screenshot
+## 🎯 Ziel der Demo
 
-![Screenshot](/src/assets/screenshot_1.png)
+Dieses Projekt zeigt, wie man mit dem generischen TypeScript-Typ `Record<K, T>`:
 
-![Screenshot](/src/assets/screenshot_2.png)
+- Aus String-Schlüsseln **typisierte Objekte** erstellt
+- IntelliSense-Unterstützung in der IDE
+- Typsicherheit bei der Verwendung von dynamischen Schlüssel-Wert-Paaren
+
+## 📦 Lokales Setup
+
+```
+git clone https://github.com/ronnymundt/key-value-record-demo.git
+cd key-value-record-demo
+npm install
+ng serve
+```
+
+## 🎥 Screencast
+
+![Screencast](/src/assets/screencast.gif)
