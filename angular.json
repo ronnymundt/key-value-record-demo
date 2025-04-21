@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "key-value-record-demo:build:production"
+              "buildTarget": "key-value-record-demo:build:production"
             },
             "development": {
-              "browserTarget": "key-value-record-demo:build:development"
+              "buildTarget": "key-value-record-demo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "key-value-record-demo:build"
+            "buildTarget": "key-value-record-demo:build"
           }
         },
         "test": {
